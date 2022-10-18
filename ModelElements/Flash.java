@@ -10,16 +10,14 @@ public class Flash {
     public Color color;
     public Flash power;
 
-    public void rotate(Angle3D input) {
+    public Flash()
+    {
+    }
+    public void rotate(Angle3D input)
+    { // поворот источника света
     }
 
-    public Flash(Point3D location, Angle3D angle, Color color, Flash power) {
-        Location = location;
-        this.angle = angle;
-        this.color = color;
-        this.power = power;
-    }
-
-    public void move(Point3D input) {
+    public void move(Point3D input)
+    { // передвижение источника света
     }
 }
