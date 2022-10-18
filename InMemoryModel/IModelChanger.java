@@ -1,2 +1,5 @@
-package Models3D.InMemoryModel;public interface IModelChanger {
+package Models3D.InMemoryModel;
+
+public interface IModelChanger {
+    void NotifyChange (IModelChanger sender);
 }
